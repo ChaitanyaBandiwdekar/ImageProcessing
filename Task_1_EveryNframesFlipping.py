@@ -12,7 +12,6 @@ while True:
     if count==50 or count==None:
         vnflip = cv2.flip(frame, 0)
         cv2.imshow('flip', vnflip)
-        cv2.waitKey(0)
         count = 0
     cv2.imshow('flip', frame)
     count += 1
