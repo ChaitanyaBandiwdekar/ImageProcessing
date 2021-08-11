@@ -11,7 +11,7 @@ def roi(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN and entered:
         top.append(y)
         top.append(x)
-        entered = Falses
+        entered = False
 
     if event == cv2.EVENT_LBUTTONUP:
         bottom.append(y)
